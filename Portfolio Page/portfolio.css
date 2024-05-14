@@ -1,0 +1,23 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+#section{
+    padding-top: 120px;
+}
+
+.card{
+    margin-bottom: 50px;
+    background-color: rgb(15, 23, 42);
+    padding: 20px 30px;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-link{
+    padding: 5px 15px;
+    font-weight: 500;
+    text-decoration: none;
+}

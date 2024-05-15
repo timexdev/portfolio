@@ -10,6 +10,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./contact.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
@@ -47,7 +48,7 @@
         <input type="text" placeholder="Name" id="name" class="form-control mb-3">
         <input type="email" placeholder="Email" id="email" class="form-control mb-3">
         <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-        <button class="btn btn-info fw-semibold mt-5 form-control">Send Message</button>
+        <button class="btn btn-info fw-semibold mt-5 form-control" onclick="submit()">Send Message</button>
         
       </form>
     </div>
@@ -57,6 +58,13 @@
         <p class="text-center fixed-bottom text-light bg-dark py-2 mb-0">Designed and Developed by <span class="fw-bold text-info">Peter Ajala</span> </p>
     </footer>
 
+    <script>
+      const submit = () =>{
+        let name = document.getElementById("name").value
+        let email = document.getElementById("email").value
+        let message = document.getElementById("message").value
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
